@@ -1,24 +1,42 @@
-# Compiled class file
-*.class
+# macOS 系统文件
+.DS_Store
 
-# Log file
+# IntelliJ IDEA 项目配置
+.idea/
+*.iml
+*.iws
+out/
+
+# VSCode（如果你同时使用的话）
+.vscode/
+
+# Python（如果你未来搞点算法小脚本）
+__pycache__/
+*.py[cod]
+
+# Node.js（万一你做可视化）
+node_modules/
+
+# Markdown临时文件（某些编辑器会产生）
+*.tmp
+*.swp
+*.bak
+
+# Logs & OS级文件
 *.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
+*.tgz
 *.zip
-*.tar.gz
-*.rar
+Thumbs.db
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# LaTeX 文件（如果你用它写讲义）
+*.aux
+*.out
+*.toc
+*.synctex.gz
+#*.pdf
+
+# 编译或临时导出目录（防止误提交）
+build/
+dist/
+export/
+temp/
