@@ -6,6 +6,7 @@
 *.iml
 *.iws
 out/
+.obsidian/
 
 # VSCode（如果你同时使用的话）
 .vscode/
