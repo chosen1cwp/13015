@@ -41,7 +41,7 @@ D：在主存中为了区分数据和程序，需要在信息表示中使用相�
 
 **指令**包括：**操作码**、**地址码**等字段
 
-![bcfb587f-2fc3-4fec-b9c9-1ff4899ad23d.png](../attachments/chapter01/9C546CAA-85F8-4180-A3E2-8057E3E853D4.png)
+![bcfb587f-2fc3-4fec-b9c9-1ff4899ad23d.png](attachments/chapter01/9C546CAA-85F8-4180-A3E2-8057E3E853D4.png)
 
 指令的格式分为两种：
 
@@ -61,7 +61,7 @@ D：在主存中为了区分数据和程序，需要在信息表示中使用相�
 
 ## 考点4 程序运行
 
-![73e8276d-2c21-4400-851e-80cbaf1f56e9.png](../attachments/chapter01/806E186B-2A95-4E3F-969C-B2494F1DFB30.png)
+![73e8276d-2c21-4400-851e-80cbaf1f56e9.png](attachments/chapter01/806E186B-2A95-4E3F-969C-B2494F1DFB30.png)
 
 1、源程序文件到可执行目标文件的转换过程是什么？
 
@@ -89,7 +89,7 @@ D：在主存中为了区分数据和程序，需要在信息表示中使用相�
 
 明显的硬件，电子工程师
 
-![算法](../attachments/chapter01/5BEA7A44-4D7A-4779-821A-66E0CBE0E94F.png)
+![算法](attachments/chapter01/5BEA7A44-4D7A-4779-821A-66E0CBE0E94F.png)
 
 ## 考点6 系统性能评价 ⭐️⭐️⭐️⭐️⭐️ 【五星考点】
 

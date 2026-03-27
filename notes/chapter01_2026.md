@@ -56,7 +56,7 @@
 3. <span style="color:red;">**控制元件**</span>（控制器）
 4. <span style="color:red;">**输入/输出设备**</span>
 
-![](../attachments/chapter01/3e17ee73-0a62-47d0-8c51-e13552663558.png "模型计算机基本硬件结构")
+![](attachments/chapter01/3e17ee73-0a62-47d0-8c51-e13552663558.png "模型计算机基本硬件结构")
 
 **MAR** 和 **MDR** 是两个非常重要的寄存器
 
@@ -93,7 +93,7 @@
 
 下面模型机采用<span style="background-color:yellow;">8</span>位<span style="color:red;">**定长**</span>指令字
 
-![](../attachments/chapter01/2001 121dd.png "定长指令字格式")
+![](attachments/chapter01/2001 121dd.png "定长指令字格式")
 
 根据**前(高)四位**来确定是：<span style="color:blue;">**R型**</span> 还是 <span style="color:red;">**M型**</span>
 
@@ -114,7 +114,7 @@
 
 在上述模型机上实现 <span style="color:red;">**z=x+y**</span> ，x和y分别存放在主存5号和6号单元中，结果z存放在7号单元中，则相应程序在主存单元中的初始内容如图：
 
-![](../attachments/chapter01/RRIOp-000.png)
+![](attachments/chapter01/RRIOp-000.png)
 
 * R[0] 0号寄存器
 * R[1] 1号寄存器
@@ -128,11 +128,11 @@
 
 程序执行过程如下图所示：
 
-![](../attachments/chapter01/根据PC取指令.png)
+![](attachments/chapter01/根据PC取指令.png)
 
 每条指令的执行过程及结果如下图：
 
-![](../attachments/chapter01/49b68bc5-5468-4f52-b454-cb86575aaf6a.png)
+![](attachments/chapter01/49b68bc5-5468-4f52-b454-cb86575aaf6a.png)
 
 ### 考点六、程序设计语言和翻译程序
 
@@ -191,7 +191,7 @@ int main()
 
 从`hello.c`到可执行目标文件hello的转换过程如下图所示:
 
-![](../attachments/chapter01/hello.c源程序文件到可执行目标文件的转换过程.png)
+![](attachments/chapter01/hello.c源程序文件到可执行目标文件的转换过程.png)
 
 1. <span style="color:red;">**预处理**</span>阶段：
     1. 预处理程序（<span style="color:blue;">**cpp**</span>）对源程序中以字符“#”开头的命令 `#include <stdio.h>` 进行处理
@@ -224,7 +224,7 @@ int main()
 
 3、将高级语言源程序转换为可执行文件通常分为：（<span style="color:red;">预处理</span>）、编译、汇编和（<span style="color:red;">链接</span>）4步。
 
-4、预处理是从（<span style="color:red;">源程序</span>）变到（<span style="color:red;"可执行></span>）文件的第一步。
+4、预处理是从（<span style="color:red;">源程序</span>）变到（<span style="color:red;">可执行</span>）文件的第一步。
 
 ### 考点八、计算机系统抽象层的转换
 
@@ -236,7 +236,7 @@ int main()
 
 它是软件和硬件之间接口的一个完整定义。
 
-![](../attachments/chapter01/钦件.png)
+![](attachments/chapter01/钦件.png)
 
 #### 习题
 
@@ -308,7 +308,7 @@ D：腾讯QQ
 
 程序的编译转换如下图所示：
 
-![](../attachments/chapter01/bianyi_zhuanhuan.png)
+![](attachments/chapter01/bianyi_zhuanhuan.png)
 
 **应用程序接口**，有两种：
 

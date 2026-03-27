@@ -42,3 +42,10 @@ build/
 dist/
 export/
 temp/
+
+notes/.vitepress/
+notes/api-examples.md
+notes/index.md
+notes/markdown-examples.md
+package-lock.json
+package.json
