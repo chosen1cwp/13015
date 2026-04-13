@@ -473,15 +473,15 @@ int execve(char *filename, char *argv[], *envp[]);
 
 CPU除了能够正常地不断执行指令以外，还必须具有程序正常执行被打断时的处理机制，这种机制称为<span style="color:dodgerblue;">**异常控制**</span>，也称为<span style="color:red;">**中断机制**</span>。
 
-打断程序正在执行的时间分为两大类：
+打断程序正常执行的事件分为两大类：
 
 * 1）内部异常：结果异常、除0等
-* 2）外部异常：采样计时时间到、网络数据包到达等
+* 2）外部中断：采样计时时间到、网络数据包到达等
 
 **CPU对异常和中断的响应过程的步骤**【<span style="color:red;">简答题</span>】
 
-* 1、保护断点和程序状态
-  * 通过<span style="color:dodgerblue;">**程序状态字**</span>保存运行程序的状态信息
+* 1、保护断点和程序状态【<span style="background-color:yellow;">保护现场</span>】
+  * 通过<span style="color:dodgerblue;">**程序状态字**</span>（<span style="color:red;">**PSW**</span>）保存运行程序的状态信息
 * 2、关中断
   * 通常通过设置<span style="color:limegreen;">**中断使能位**</span>来实现，当置<span style="color:red;">**1**</span>，<span style="color:red;">**开中断**</span>，表示<span style="color:red;">允许响应中断</span>，反之，关中断。
 * 3、识别异常和中断事件并转响应处理程序
